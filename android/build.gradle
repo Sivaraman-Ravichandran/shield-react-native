@@ -19,3 +19,20 @@ buildscript {
 }
 
 apply plugin: "com.facebook.react.rootproject"
+// android/build.gradle
+allprojects {
+    repositories {
+        mavenCentral()
+        google()
+        maven { 
+            url "https://api.mapbox.com/downloads/v2/releases/maven" 
+            authentication {
+                basic(BasicAuthentication)
+            }
+            credentials {
+                username = "mapbox"
+                password = 'sk.eyJ1Ijoic2l2YXJhbWFuNyIsImEiOiJjbTBqaXB6c3IwbTRyMmlzYXdhNDE1eXY3In0.zE8Q2Z_e70_nRF_kgvzZUA'
+            }
+        }
+    }
+}
