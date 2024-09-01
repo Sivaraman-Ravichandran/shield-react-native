@@ -156,7 +156,7 @@ const StoreLocation: React.FC = () => {
       <MapboxGL.MapView
         style={styles.map}
         zoomEnabled={true}
-        styleURL="mapbox://styles/mapbox/satellite-streets-v12"
+        styleURL="mapbox://styles/mapbox/navigation-night-v1"
         rotateEnabled={true}
         onDidFinishLoadingMap={async () => {
           await createRouterLine(coords, selectedRouteProfile);

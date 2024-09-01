@@ -11,6 +11,7 @@ import {storesData} from '../data/stores';
 import {useNavigation} from '@react-navigation/native';
 import {StackNavigationProp} from '@react-navigation/stack';
 import Geolocation from '@react-native-community/geolocation';
+
 import Slider from '@react-native-community/slider';
 
 interface StoreData {

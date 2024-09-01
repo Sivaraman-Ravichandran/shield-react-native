@@ -23,7 +23,7 @@ const HeaderComponent = () => {
     <View style={styles.container}>
       <View style={styles.leftContent}></View>
       <View style={styles.middleContent}>
-        <Text style={styles.title}>My Nearby Stores</Text>
+        <Text style={styles.title}>SHIELD</Text>
       </View>
       <View style={styles.rightContent}>
         <Switch
