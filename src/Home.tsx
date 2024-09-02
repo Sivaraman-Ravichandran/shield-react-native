@@ -122,23 +122,10 @@ const Home: React.FC = () => {
         <TouchableOpacity onPress={handleNearbyPress} style={styles.button}>
           <Text style={styles.buttonTextNearby}>Nearby</Text>
         </TouchableOpacity>
-        <View style={styles.divider} />
-        <TouchableOpacity onPress={handleAllPress} style={styles.button}>
-          <Text style={styles.buttonTextAll}>All</Text>
-        </TouchableOpacity>
+       
+        
       </View>
-      <View style={styles.sliderContainer}>
-        <Text style={styles.distanceText}>Distance : {selectedDistance}</Text>
-        <Slider
-          style={styles.slider}
-          minimumValue={20}
-          maximumValue={60}
-          minimumTrackTintColor="#FFFFFF"
-          maximumTrackTintColor="#000000"
-          value={selectedDistance}
-          onValueChange={value => setselectedDistance(value)}
-        />
-      </View>
+      
       <FlatList
         data={showAllStores ? storesData : nearbyStores}
         renderItem={({item}: {item: StoreData}) => (

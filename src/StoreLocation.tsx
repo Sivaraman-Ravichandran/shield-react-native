@@ -42,7 +42,7 @@ const routeProfiles = [
 const StoreLocation: React.FC = () => {
   const [routeDirections, setRouteDirections] = useState<any | null>(null);
   const [coords, setCoords] = useState<[number, number]>([
-    76.957861, 10.937489 
+    76.957861, 10.937489,
   ]);
   const [distance, setDistance] = useState<string | null>(null);
   const [duration, setDuration] = useState<string | null>(null);
@@ -163,7 +163,7 @@ const StoreLocation: React.FC = () => {
         }}>
         <MapboxGL.Camera
           zoomLevel={16}
-          centerCoordinate={[76.951895,10.939138]}
+          centerCoordinate={[76.956, 10.937]}
           animationMode={'flyTo'}
           animationDuration={6000}
         />
