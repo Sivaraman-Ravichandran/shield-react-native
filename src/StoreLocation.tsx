@@ -172,7 +172,7 @@ const StoreLocation: React.FC = () => {
             <MapboxGL.LineLayer
               id="routerLine01"
               style={{
-                lineColor: '#FA9E14',
+                lineColor: 'green',
                 lineWidth: 4,
               }}
             />
@@ -218,7 +218,7 @@ const StoreLocation: React.FC = () => {
               value={`${duration} h`}
               footerTitle="Distance"
               footerValue={`${distance} km`}
-              style={{backgroundColor: '#33495F'}}
+              style={{backgroundColor: '#00712D'}}
               onPress={() => {}}
             />
           </View>
@@ -257,8 +257,8 @@ const styles = StyleSheet.create({
     zIndex: 1,
   },
   destinationIcon: {
-    width: 30,
-    height: 30,
+    width: 60,
+    height: 60,
     justifyContent: 'center',
     alignItems: 'center',
   },

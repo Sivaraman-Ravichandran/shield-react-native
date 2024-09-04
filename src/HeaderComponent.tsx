@@ -57,7 +57,7 @@ const styles = StyleSheet.create({
   container: {
     flexDirection: 'row',
     justifyContent: 'space-between',
-    backgroundColor: '#33495F',
+    backgroundColor: '#00712D',
     paddingTop: 10,
     paddingBottom: 20,
     paddingHorizontal: 16,
@@ -65,7 +65,7 @@ const styles = StyleSheet.create({
     borderBottomLeftRadius: 10,
     borderBottomRightRadius: 10,
     borderBottomWidth: 1,
-    borderBottomColor: '#222831',
+    borderBottomColor: '#00712D',
     shadowColor: '#000',
     shadowOffset: {
       width: 0,
